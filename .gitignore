@@ -1,0 +1,20 @@
+# Frontend
+node_modules/
+dist/
+
+# Backend
+target/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+# Protect database credentials
+/smart-support-backend/src/main/resources/application.properties
