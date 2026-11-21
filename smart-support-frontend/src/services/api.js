@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://54.79.204.213",
+  baseURL: "https://nursery-compressed-plots-circle.trycloudflare.com",
   headers: {
     "Content-Type": "application/json",
   },
